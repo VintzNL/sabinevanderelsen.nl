@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Over Sabine van der Elsen | Psychologe i.o. & Fysiotherapeute | Grubbenvorst</title>
+  <meta name="description" content="Sabine van der Elsen - Psychologe in opleiding en fysiotherapeute in Grubbenvorst. 25+ jaar ervaring in de gezondheidszorg, ervaringsdeskundige met MS, holistische aanpak voor lichaam en geest.">
+  <meta name="keywords" content="over sabine van der elsen, psychologe i.o. grubbenvorst, fysiotherapeute grubbenvorst, MS ervaringsdeskundige, psychologe in opleiding limburg">
+  <meta property="og:title" content="Over Sabine van der Elsen | Psychologe i.o. & Fysiotherapeute | Grubbenvorst">
+  <meta property="og:description" content="Sabine van der Elsen - Psychologe in opleiding en fysiotherapeute in Grubbenvorst. 25+ jaar ervaring in de gezondheidszorg, ervaringsdeskundige met MS, holistische aanpak voor lichaam en geest.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sabinevanderelsen.nl/over-sabine">
+  <meta property="og:locale" content="nl_NL">
+  <meta name="author" content="Sabine van der Elsen">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Sabine van der Elsen - Psychologe i.o. & Fysiotherapeute",
+    "description": "Coaching, therapie en fysiotherapie in Grubbenvorst. Gespecialiseerd in omgaan met chronische ziekte.",
+    "url": "https://sabinevanderelsen.nl",
+    "telephone": "+31642559022",
+    "email": "info@sabinevanderelsen.nl",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Veestraat 13",
+      "addressLocality": "Grubbenvorst",
+      "postalCode": "5971 BE",
+      "addressCountry": "NL"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "51.4289",
+      "longitude": "6.1356"
+    },
+    "areaServed": ["Grubbenvorst", "Venlo", "Horst", "Sevenum", "Blerick", "Arcen", "Meerlo"]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --sage: #7A9E8E;
+      --sage-light: #E8F0EC;
+      --sage-dark: #5C7D6E;
+      --warm: #C4A882;
+      --warm-light: #F5EDE3;
+      --cream: #FAF8F5;
+      --dark: #2C3E35;
+      --text: #3D4F45;
+      --text-light: #6B7D72;
+      --white: #FFFFFF;
+      --border: #D4DDD8;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; font-size: 16px; }
+
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      color: var(--text);
+      background: var(--cream);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      color: var(--dark);
+      line-height: 1.3;
+    }
+
+    /* === NAVIGATION === */
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: rgba(250, 248, 245, 0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      transition: all 0.3s ease;
+    }
+
+    .nav-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 72px;
+    }
+
+    .nav-logo {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 1.1rem;
+      color: var(--dark);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .nav-logo span { color: var(--sage); }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      align-items: center;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--text);
+      font-size: 0.9rem;
+      font-weight: 400;
+      letter-spacing: 0.02em;
+      transition: color 0.2s;
+      position: relative;
+    }
+
+    .nav-links a:hover { color: var(--sage-dark); }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--sage);
+      transition: width 0.3s ease;
+    }
+
+    .nav-links a:hover::after { width: 100%; }
+
+    .nav-cta {
+      background: var(--sage) !important;
+      color: var(--white) !important;
+      padding: 0.6rem 1.4rem;
+      border-radius: 6px;
+      font-weight: 500 !important;
+      transition: background 0.2s !important;
+    }
+
+    .nav-cta:hover { background: var(--sage-dark) !important; }
+    .nav-cta::after { display: none !important; }
+
+    /* Mobile menu */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 5px;
+    }
+
+    .hamburger span {
+      width: 24px;
+      height: 2px;
+      background: var(--dark);
+      transition: all 0.3s;
+    }
+
+    /* === HERO === */
+    .hero {
+      min-height: 50vh;
+      display: flex;
+      align-items: center;
+      padding: 8rem 2rem 4rem;
+      background: linear-gradient(135deg, var(--cream) 0%, var(--sage-light) 50%, var(--warm-light) 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .hero h1 {
+      font-size: 2.4rem;
+      margin-bottom: 1rem;
+      color: var(--dark);
+    }
+
+    .hero p {
+      font-size: 1.05rem;
+      color: var(--text-light);
+      max-width: 700px;
+      line-height: 1.8;
+    }
+
+    /* === SECTIONS === */
+    .section {
+      padding: 5rem 2rem;
+    }
+
+    .section-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .section-white { background: var(--white); }
+    .section-alt { background: var(--sage-light); }
+
+    .section-header {
+      text-align: center;
+      max-width: 640px;
+      margin: 0 auto 3rem;
+    }
+
+    .section-label {
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--sage);
+      margin-bottom: 0.8rem;
+    }
+
+    .section-header h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .section-header p {
+      color: var(--text-light);
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+
+    /* === ABOUT CONTENT === */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 4rem;
+      align-items: center;
+      margin-bottom: 3rem;
+    }
+
+    .about-photo {
+      aspect-ratio: 4/5;
+      background: linear-gradient(135deg, var(--sage-light), var(--warm-light));
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-light);
+      font-size: 0.9rem;
+      border: 1px solid var(--border);
+    }
+
+    .about-content h2 { font-size: 2rem; margin-bottom: 1.5rem; }
+
+    .about-content p {
+      margin-bottom: 1rem;
+      color: var(--text);
+      line-height: 1.8;
+    }
+
+    .about-highlight {
+      background: var(--sage-light);
+      padding: 1.2rem 1.5rem;
+      border-radius: 10px;
+      border-left: 4px solid var(--sage);
+      margin: 1.5rem 0;
+      font-style: italic;
+      color: var(--sage-dark);
+    }
+
+    .credentials {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .credential {
+      font-size: 0.8rem;
+      color: var(--text-light);
+      padding: 0.4rem 0.8rem;
+      background: var(--cream);
+      border-radius: 6px;
+      border: 1px solid var(--border);
+    }
+
+    /* === FEATURES GRID === */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .feature-card {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 2rem;
+      border: 1px solid var(--border);
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .feature-card h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.8rem;
+      color: var(--dark);
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+    }
+
+    .feature-card p {
+      font-size: 0.92rem;
+      color: var(--text-light);
+      line-height: 1.6;
+    }
+
+    .feature-icon {
+      width: 40px;
+      height: 40px;
+      background: var(--sage-light);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+      color: var(--sage-dark);
+      font-weight: 700;
+      font-size: 1.2rem;
+    }
+
+    /* === CTA === */
+    .cta-section {
+      background: var(--dark);
+      text-align: center;
+      padding: 5rem 2rem;
+    }
+
+    .cta-section h2 {
+      color: var(--white);
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .cta-section p {
+      color: rgba(255,255,255,0.7);
+      font-size: 1.05rem;
+      margin-bottom: 2rem;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.9rem 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: all 0.2s;
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn-primary {
+      background: var(--sage);
+      color: var(--white);
+    }
+
+    .btn-primary:hover { background: var(--sage-dark); transform: translateY(-1px); }
+
+    .cta-section .btn-primary { background: var(--sage); font-size: 1rem; padding: 1rem 2.5rem; }
+    .cta-section .btn-primary:hover { background: var(--sage-dark); }
+
+    .cta-contact {
+      margin-top: 1.5rem;
+      color: rgba(255,255,255,0.5);
+      font-size: 0.85rem;
+    }
+
+    .cta-contact a { color: var(--sage); text-decoration: none; }
+
+    /* === FOOTER === */
+    .footer {
+      background: var(--dark);
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding: 3rem 2rem 2rem;
+    }
+
+    .footer-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 3rem;
+    }
+
+    .footer h4 {
+      color: var(--white);
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+
+    .footer p, .footer a {
+      color: rgba(255,255,255,0.5);
+      font-size: 0.85rem;
+      line-height: 1.8;
+      text-decoration: none;
+    }
+
+    .footer a:hover { color: var(--sage); }
+
+    .footer-links { list-style: none; }
+    .footer-links li { margin-bottom: 0.4rem; }
+
+    .footer-bottom {
+      max-width: 1200px;
+      margin: 2rem auto 0;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.35);
+    }
+
+    /* === RESPONSIVE === */
+    @media (max-width: 900px) {
+      .about-grid { grid-template-columns: 1fr; }
+      .about-photo { max-height: 400px; }
+      .footer-inner { grid-template-columns: 1fr 1fr; }
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 72px;
+        left: 0;
+        right: 0;
+        background: var(--cream);
+        padding: 1.5rem 2rem;
+        border-bottom: 1px solid var(--border);
+        box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .hero { padding: 6rem 1.5rem 3rem; }
+      .hero h1 { font-size: 1.8rem; }
+      .section { padding: 3rem 1.5rem; }
+      .footer-inner { grid-template-columns: 1fr; }
+      .features-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav" role="navigation" aria-label="Hoofdnavigatie">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Sabine <span>van der Elsen</span></a>
+      <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('active')" aria-label="Menu openen">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Over Sabine</a></li>
+        <li><a href="index.html#diensten">Expertise</a></li>
+        <li><a href="werkwijze-tarieven.html">Werkwijze</a></li>
+        <li><a href="ervaringen.html">Ervaringen</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" class="nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Over Sabine van der Elsen</h1>
+      <p>Psychologe in opleiding en fysiotherapeute met 25+ jaar ervaring in de gezondheidszorg. Ervaringsdeskundige met MS, holistische aanpak voor lichaam én geest.</p>
+    </div>
+  </section>
+
+  <!-- MAIN ABOUT SECTION -->
+  <section class="section section-white">
+    <div class="section-inner">
+      <div class="about-grid">
+        <div class="about-photo">
+          <span>Foto Sabine in haar praktijk<br><br><small style="opacity:0.6">Warme, uitnodigende sfeer</small></span>
+        </div>
+        <div class="about-content">
+          <h2>Een uniek perspectief</h2>
+          <p>Mijn reis in de gezondheidszorg begon meer dan 25 jaar geleden als fysiotherapeute. Gedurende al die jaren zag ik een herhalend patroon: fysieke klachten hebben bijna altijd een diepere oorzaak. Niet alleen lichamelijk, maar ook mentaal.</p>
+          <p>Toen mij zelf de diagnose MS werd gesteld, veranderde alles. Dit werd een wendpunt. Ik ervoer firsthand wat het betekent om dagelijks met een chronische ziekte te leven. Die persoonlijke ervaring, gecombineerd met mijn ruime professionele achtergrond, bracht mij naar de psychologie.</p>
+          <div class="about-highlight">
+            &ldquo;Wie kan je beter helpen dan iemand die zelf weet hoe het is om geconfronteerd te worden met de dagelijkse uitdagingen van een chronische ziekte?&rdquo;
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BIOGRAPHY SECTION -->
+  <section class="section section-alt">
+    <div class="section-inner">
+      <h2 style="font-size: 1.8rem; margin-bottom: 2rem; text-align: center;">Mijn achtergrond</h2>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+        <div style="background: white; padding: 2rem; border-radius: 12px; border: 1px solid var(--border);">
+          <h3 style="color: var(--sage-dark); margin-bottom: 1rem; font-family: 'Inter', sans-serif; font-size: 1.1rem; font-weight: 600;">25+ jaar fysiotherapie</h3>
+          <p style="color: var(--text-light); line-height: 1.7;">Ik begon als fysiotherapeute en heb meer dan twee decennia ervaring in het behandelen van fysieke klachten. Maar gaandeweg besefte ik: je kunt het lichaam niet los zien van de geest.</p>
+        </div>
+        <div style="background: white; padding: 2rem; border-radius: 12px; border: 1px solid var(--border);">
+          <h3 style="color: var(--sage-dark); margin-bottom: 1rem; font-family: 'Inter', sans-serif; font-size: 1.1rem; font-weight: 600;">Ervaringsdeskundige MS</h3>
+          <p style="color: var(--text-light); line-height: 1.7;">Mijn eigen diagnose Multiple Sclerosis gaf mij authentiek inzicht in wat patiënten doormaken. Dit vormde de brug naar mijn huidige werk als psychologe in opleiding.</p>
+        </div>
+        <div style="background: white; padding: 2rem; border-radius: 12px; border: 1px solid var(--border);">
+          <h3 style="color: var(--sage-dark); margin-bottom: 1rem; font-family: 'Inter', sans-serif; font-size: 1.1rem; font-weight: 600;">Psychologe in opleiding</h3>
+          <p style="color: var(--text-light); line-height: 1.7;">Momenteel volg ik de opleiding tot psycholoog en specialiseer ik me in coping en chronische ziekten. Deze kennis combineer ik dagelijks in mijn praktijk.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UNIQUE APPROACH SECTION -->
+  <section class="section section-white">
+    <div class="section-inner">
+      <h2 style="font-size: 2rem; margin-bottom: 1rem; text-align: center;">Nog steeds actief als fysiotherapeute</h2>
+      <p style="text-align: center; color: var(--text-light); margin-bottom: 3rem; max-width: 700px; margin-left: auto; margin-right: auto;">Dit maakt mijn aanpak uniek. Tijdens behandelingen deel ik niet alleen fysieke expertise, maar ook psychologische inzichten. Twee disciplines in één sessie - iets wat je nergens anders in de regio vindt.</p>
+
+      <div style="background: var(--sage-light); padding: 2.5rem; border-radius: 16px; border-left: 4px solid var(--sage); margin-bottom: 2rem;">
+        <h3 style="color: var(--dark); margin-bottom: 1rem; font-size: 1.2rem;">Een holistische visie</h3>
+        <p style="color: var(--text); line-height: 1.8;">Bij mij werk je niet enkel aan fysieke herstelling of mentale gezondheid apart. Ik kijk naar het totaalplaatje: hoe beïnvloedt je lichaam je geest, en omgekeerd? Hoe werken je gedachten, gevoelens en fysieke sensaties samen? Deze integrale aanpak helpt je sneller je doelen te bereiken.</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+        <div style="background: var(--cream); padding: 1.5rem; border-radius: 10px; border: 1px solid var(--border);">
+          <h4 style="color: var(--sage-dark); margin-bottom: 0.8rem; font-family: 'Inter', sans-serif; font-weight: 600;">Wat mijn cliënten zeggen</h4>
+          <p style="font-style: italic; color: var(--text); line-height: 1.7; margin-bottom: 0.5rem;">&ldquo;Ik voelde me echt begrepen. Sabine begrijpt het probleem van beide kanten.&rdquo;</p>
+          <p style="font-size: 0.85rem; color: var(--text-light);">— Een cliënt met chronische pijn</p>
+        </div>
+        <div style="background: var(--cream); padding: 1.5rem; border-radius: 10px; border: 1px solid var(--border);">
+          <h4 style="color: var(--sage-dark); margin-bottom: 0.8rem; font-family: 'Inter', sans-serif; font-weight: 600;">Haar aanpak</h4>
+          <p style="color: var(--text); line-height: 1.7;">Luisterend, niet-veroordelend, persoonlijk. Sabine creëert een veilige ruimte waarin je jezelf volledig kunt zijn en waarin echte verandering kan plaatsvinden.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREDENTIALS & QUALIFICATIONS -->
+  <section class="section section-alt">
+    <div class="section-inner">
+      <h2 style="font-size: 2rem; margin-bottom: 2rem; text-align: center;">Kwalificaties & Registraties</h2>
+
+      <div style="max-width: 800px; margin: 0 auto; background: white; padding: 2.5rem; border-radius: 12px; border: 1px solid var(--border);">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+          <div>
+            <h3 style="color: var(--sage-dark); margin-bottom: 1rem; font-family: 'Inter', sans-serif; font-size: 1rem; font-weight: 600;">BIG-registratie</h3>
+            <p style="font-size: 1.3rem; color: var(--dark); font-weight: 700; margin-bottom: 0.5rem;">19047381504</p>
+            <p style="font-size: 0.85rem; color: var(--text-light);">Nederlands register van paramedische beroepen</p>
+          </div>
+          <div>
+            <h3 style="color: var(--sage-dark); margin-bottom: 1rem; font-family: 'Inter', sans-serif; font-size: 1rem; font-weight: 600;">AGB-code</h3>
+            <p style="font-size: 1.3rem; color: var(--dark); font-weight: 700; margin-bottom: 0.5rem;">04101232</p>
+            <p style="font-size: 0.85rem; color: var(--text-light);">Voor declaratie bij zorgverzekeraars</p>
+          </div>
+        </div>
+        <hr style="border: none; border-top: 1px solid var(--border); margin: 2rem 0;">
+        <div>
+          <h3 style="color: var(--dark); margin-bottom: 1rem; font-family: 'Inter', sans-serif; font-size: 1rem; font-weight: 600;">Specialisaties & Trainingen</h3>
+          <ul style="list-style: none; color: var(--text);">
+            <li style="padding: 0.5rem 0; padding-left: 1.8rem; position: relative;">
+              <span style="position: absolute; left: 0; top: 0.8rem; width: 8px; height: 8px; background: var(--sage); border-radius: 50%;"></span>
+              ACT-therapie (Acceptance & Commitment Therapy)
+            </li>
+            <li style="padding: 0.5rem 0; padding-left: 1.8rem; position: relative;">
+              <span style="position: absolute; left: 0; top: 0.8rem; width: 8px; height: 8px; background: var(--sage); border-radius: 50%;"></span>
+              Cognitieve Gedragstherapie (CBT)
+            </li>
+            <li style="padding: 0.5rem 0; padding-left: 1.8rem; position: relative;">
+              <span style="position: absolute; left: 0; top: 0.8rem; width: 8px; height: 8px; background: var(--sage); border-radius: 50%;"></span>
+              Polyvagaal Therapie
+            </li>
+            <li style="padding: 0.5rem 0; padding-left: 1.8rem; position: relative;">
+              <span style="position: absolute; left: 0; top: 0.8rem; width: 8px; height: 8px; background: var(--sage); border-radius: 50%;"></span>
+              Motiverende Gespreksvoering
+            </li>
+            <li style="padding: 0.5rem 0; padding-left: 1.8rem; position: relative;">
+              <span style="position: absolute; left: 0; top: 0.8rem; width: 8px; height: 8px; background: var(--sage); border-radius: 50%;"></span>
+              Chronische ziekten en coping
+            </li>
+            <li style="padding: 0.5rem 0; padding-left: 1.8rem; position: relative;">
+              <span style="position: absolute; left: 0; top: 0.8rem; width: 8px; height: 8px; background: var(--sage); border-radius: 50%;"></span>
+              Lifestyle Coaching
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <h2>Meer weten over mijn aanpak?</h2>
+    <p>Of je nu met een specifieke uitdaging zit of gewoon meer over mij wilt weten: begin met een gratis kennismakingsgesprek. Geen verplichtingen, gewoon een eerlijk gesprek.</p>
+    <a href="contact.html" class="btn btn-primary">Plan een kennismakingsgesprek &rarr;</a>
+    <p class="cta-contact">Of bel direct: <a href="tel:+31642559022">06 425 590 22</a> &middot; <a href="mailto:info@sabinevanderelsen.nl">info@sabinevanderelsen.nl</a></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <h4>Sabine van der Elsen</h4>
+        <p>Psychologe in opleiding &amp; Coach<br>Gespecialiseerd in omgaan met chronische ziekte,<br>met 25+ jaar ervaring in de gezondheidszorg.</p>
+        <p style="margin-top: 1rem;">
+          BIG-registratie: 19047381504<br>
+          AGB-code: 04101232
+        </p>
+      </div>
+      <div>
+        <h4>Expertise</h4>
+        <ul class="footer-links">
+          <li><a href="omgaan-met-chronische-ziekte.html">Omgaan met ziekte</a></li>
+          <li><a href="maatwerk-coaching-grubbenvorst.html">Maatwerk Coaching</a></li>
+          <li><a href="act-therapie-venlo-limburg.html">ACT Therapie</a></li>
+          <li><a href="cognitieve-therapie-grubbenvorst.html">Cognitieve Therapie</a></li>
+          <li><a href="lifestyle-coaching-venlo.html">Lifestyle Coaching</a></li>
+          <li><a href="polyvagaal-therapie-limburg.html">Polyvagaal Therapie</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Praktisch</h4>
+        <ul class="footer-links">
+          <li><a href="werkwijze-tarieven.html">Werkwijze &amp; Tarieven</a></li>
+          <li><a href="ervaringen.html">Ervaringen</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Veestraat 13<br>5971 BE Grubbenvorst</p>
+        <p style="margin-top: 0.5rem;">
+          <a href="tel:+31642559022">06 425 590 22</a><br>
+          <a href="mailto:info@sabinevanderelsen.nl">info@sabinevanderelsen.nl</a>
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Sabine van der Elsen. Alle rechten voorbehouden.</span>
+      <span><a href="privacy.html" style="color: inherit;">Privacyverklaring</a></span>
+    </div>
+  </footer>
+
+</body>
+</html>
