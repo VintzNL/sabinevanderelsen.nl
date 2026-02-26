@@ -585,7 +585,14 @@
           <h2>Stuur een bericht</h2>
           <p style="color: var(--text-light); margin-bottom: 2rem;">Vul het formulier in en ik neem spoedig contact met je op.</p>
 
-          <form action="#" method="POST">
+          <form action="https://formsubmit.co/info@sabinevanderelsen.nl" method="POST">
+            <!-- Formsubmit configuratie -->
+            <input type="hidden" name="_subject" value="Nieuw bericht via sabinevanderelsen.nl">
+            <input type="hidden" name="_next" value="https://sabinevanderelsen.nl/bedankt.html">
+            <input type="hidden" name="_captcha" value="true">
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_template" value="table">
+
             <div class="form-group">
               <label for="name">Naam *</label>
               <input type="text" id="name" name="name" required>
@@ -603,7 +610,7 @@
 
             <div class="form-group">
               <label for="subject">Onderwerp *</label>
-              <input type="text" id="subject" name="subject" placeholder="Bijv. afspraak inplannen, vraag over coaching" required>
+              <input type="text" id="subject" name="_subject" placeholder="Bijv. afspraak inplannen, vraag over coaching" required>
             </div>
 
             <div class="form-group">
