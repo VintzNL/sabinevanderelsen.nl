@@ -358,8 +358,15 @@
       color: var(--text-light);
       font-size: 0.9rem;
       text-align: center;
-      padding: 2rem;
+      padding: 0;
       border: 1px solid var(--border);
+      overflow: hidden;
+    }
+    .hero-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 20px;
     }
 
     .hero-stats {
@@ -477,6 +484,14 @@
       color: var(--text-light);
       font-size: 0.9rem;
       border: 1px solid var(--border);
+      overflow: hidden;
+      padding: 0;
+    }
+    .about-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 16px;
     }
 
     .about-content h2 { font-size: 2rem; margin-bottom: 1.5rem; }
