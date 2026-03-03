@@ -250,14 +250,16 @@
 
     .about-photo {
       aspect-ratio: 4/5;
-      background: linear-gradient(135deg, var(--sage-light), var(--warm-light));
       border-radius: 16px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--text-light);
-      font-size: 0.9rem;
+      overflow: hidden;
       border: 1px solid var(--border);
+    }
+
+    .about-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
     }
 
     .about-content h2 { font-size: 2rem; margin-bottom: 1.5rem; }
@@ -506,7 +508,7 @@
     <div class="section-inner">
       <div class="about-grid">
         <div class="about-photo">
-          <span>Foto Sabine in haar praktijk<br><br><small style="opacity:0.6">Warme, uitnodigende sfeer</small></span>
+          <img src="sabine-portret-rolstoel-gang.jpg" alt="Sabine van der Elsen in haar praktijk in Grubbenvorst">
         </div>
         <div class="about-content">
           <h2>Een uniek perspectief</h2>
