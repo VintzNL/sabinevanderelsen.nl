@@ -181,17 +181,24 @@
 
     .hero-image {
       max-width: 900px;
-      margin: 0 auto 0;
+      margin: 0 auto;
       padding: 0 2rem;
     }
 
-    .hero-image img {
+    .hero-image .hero-photo {
       width: 100%;
-      max-height: 480px;
+      aspect-ratio: 16/9;
+      border-radius: 20px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+
+    .hero-image .hero-photo img {
+      width: 100%;
+      height: 100%;
       object-fit: cover;
-      object-position: center 20%;
-      border-radius: 16px;
-      box-shadow: 0 8px 30px rgba(44, 62, 53, 0.12);
+      object-position: center 30%;
+      display: block;
     }
 
     .hero-inner {
@@ -549,7 +556,9 @@
 
   <!-- HERO IMAGE -->
   <div class="hero-image">
-    <img src="blog-chronische-ziekte-sabine.JPG" alt="Sabine van der Elsen in haar therapieruimte - omgaan met chronische ziekte" loading="eager">
+    <div class="hero-photo">
+      <img src="blog-chronische-ziekte-sabine.JPG" alt="Sabine van der Elsen in haar therapieruimte - omgaan met chronische ziekte" loading="eager">
+    </div>
   </div>
 
   <!-- ARTICLE -->
