@@ -32,7 +32,7 @@
   </url>
   <url>
     <loc>https://sabinevanderelsen.nl/blog.html</loc>
-    <lastmod>2026-03-03</lastmod>
+    <lastmod>2026-03-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -93,6 +93,12 @@
   <url>
     <loc>https://sabinevanderelsen.nl/blog-omgaan-met-chronische-ziekte.html</loc>
     <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sabinevanderelsen.nl/blog-wat-is-polyvagaal-therapie.html</loc>
+    <lastmod>2025-01-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
