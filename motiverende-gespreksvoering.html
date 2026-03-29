@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KLV2CGHTNQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-KLV2CGHTNQ');
+    </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Motiverende Gespreksvoering | Coaching Grubbenvorst | Sabine van der Elsen</title>
-  <meta name="description" content="Motiverende gespreksvoering (Motivational Interviewing) in Grubbenvorst. Ontdek je eigen motivatie om te veranderen. Sabine van der Elsen helpt je van voornemen naar actie.">
-  <meta name="keywords" content="motiverende gespreksvoering, motivational interviewing, motivatie coaching, gedragsverandering grubbenvorst, verslaving coaching">
+  <title>Motiverende Gespreksvoering Grubbenvorst | Sabine van der Elsen</title>
+  <meta name="description" content="Motiverende gespreksvoering in Grubbenvorst en online. Ontdek je eigen motivatie om te veranderen. Sabine van der Elsen helpt je van voornemen naar actie.">
+  <meta name="keywords" content="motiverende gespreksvoering grubbenvorst, motivational interviewing venlo, motivatie coaching limburg, gedragsverandering begeleiding, motiverende gespreksvoering online">
   <meta name="author" content="Sabine van der Elsen">
   <meta name="robots" content="index, follow">
   <meta name="geo.region" content="NL-LI">
   <meta name="geo.placename" content="Grubbenvorst">
-  <link rel="canonical" href="https://www.sabinevanderelsen.nl/motiverende-gespreksvoering">
+  <link rel="canonical" href="https://sabinevanderelsen.nl/motiverende-gespreksvoering.html">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Motiverende Gespreksvoering | Van voornemen naar actie | Sabine van der Elsen">
-  <meta property="og:description" content="Ontdek je eigen motivatie om te veranderen. Motivational Interviewing helpt je concrete stappen te zetten in Grubbenvorst.">
+  <meta property="og:title" content="Motiverende Gespreksvoering Grubbenvorst | Sabine van der Elsen">
+  <meta property="og:description" content="Ontdek je eigen motivatie om te veranderen. Motiverende gespreksvoering helpt je concrete stappen te zetten. Grubbenvorst en online.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.sabinevanderelsen.nl/motiverende-gespreksvoering">
+  <meta property="og:url" content="https://sabinevanderelsen.nl/motiverende-gespreksvoering.html">
   <meta property="og:locale" content="nl_NL">
 
-  <!-- Structured Data -->
+  <!-- Structured Data: Service + LocalBusiness -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": ["Service", "LocalBusiness"],
+    "@type": "Service",
     "name": "Motiverende Gespreksvoering",
-    "description": "Motiverende gespreksvoering (Motivational Interviewing) in Grubbenvorst. Begeleiding van voornemen naar daadwerkelijke gedragsverandering.",
+    "description": "Motiverende gespreksvoering (Motivational Interviewing) helpt je je eigen motivatie te ontdekken en van voornemen naar actie te komen. Begeleiding in Grubbenvorst en online.",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Sabine van der Elsen - Psychologe i.o.",
+      "name": "Sabine van der Elsen - Psychologe i.o. & Coach",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Veestraat 13",
@@ -39,7 +47,53 @@
       "telephone": "+31642559022",
       "email": "info@sabinevanderelsen.nl"
     },
-    "areaServed": "Grubbenvorst"
+    "areaServed": {
+      "@type": "GeoCircle",
+      "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 51.4267, "longitude": 6.1367 },
+      "geoRadius": "25000"
+    }
+  }
+  </script>
+
+  <!-- FAQ Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is motiverende gespreksvoering alleen voor verslaving?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nee. Hoewel de methode oorspronkelijk voor verslavingszorg is ontwikkeld, wordt motiverende gespreksvoering breed ingezet bij elke vorm van gedragsverandering, van leefstijl tot omgaan met ziekte."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hoe lang duurt een traject met motiverende gespreksvoering?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dat verschilt per persoon en situatie. Na het gratis kennismakingsgesprek maken we samen een inschatting die past bij jouw doelen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kan motiverende gespreksvoering helpen bij chronische ziekte?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, veel mensen met een chronische aandoening ervaren moeite met leefstijlaanpassingen. Motiverende gespreksvoering kan helpen om vanuit je eigen motivatie stappen te zetten."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat als ik niet zeker weet of ik wil veranderen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dat is juist een goed startpunt. Motiverende gespreksvoering helpt je verkennen wat je wilt, zonder druk of oordeel. Twijfel hoort bij het proces."
+        }
+      }
+    ]
   }
   </script>
 
@@ -296,7 +350,7 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      object-position: center center;
+      object-position: 60% center;
       display: block;
     }
 
@@ -356,6 +410,14 @@
       line-height: 1.8;
     }
 
+    .content-text a {
+      color: var(--sage-dark);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    .content-text a:hover { color: var(--sage); }
+
     .content-text ul {
       list-style: none;
       margin: 1.5rem 0;
@@ -389,32 +451,12 @@
 
     .highlight-box p {
       color: var(--sage-dark);
-      margin-bottom: 0;
-    }
-
-    .principle-box {
-      background: var(--cream);
-      padding: 1.5rem;
-      border-radius: 10px;
-      margin: 1rem 0;
-      border-left: 4px solid var(--warm);
-    }
-
-    .principle-box h4 {
-      color: var(--dark);
-      font-size: 1.1rem;
-      margin-bottom: 0.6rem;
-    }
-
-    .principle-box p {
-      color: var(--text);
+      font-style: italic;
       margin-bottom: 0;
     }
 
     /* === VOOR WIE SECTION === */
-    .voor-wie {
-      background: var(--white);
-    }
+    .voor-wie { background: var(--white); }
 
     .voor-wie-grid {
       display: grid;
@@ -442,9 +484,7 @@
     }
 
     /* === FAQ === */
-    .faq-section {
-      background: var(--white);
-    }
+    .faq-section { background: var(--white); }
 
     .faq-inner {
       max-width: 800px;
@@ -608,16 +648,16 @@
     <div class="hero-inner">
       <div class="hero-content">
         <div class="hero-label">Motiverende Gespreksvoering</div>
-        <h1>Van voornemen naar <em>daad</em></h1>
-        <p class="hero-text">Je wilt veranderen, maar weet niet hoe je echt in beweging komt. Motiverende gespreksvoering helpt je je eigen redenen voor verandering te vinden – niet wat anderen denken dat je moet, maar wat jij echt wilt. En vanuit die echte motivatie, kom je in actie.</p>
+        <h1>Van voornemen <em>naar actie</em></h1>
+        <p class="hero-text">Je wilt veranderen, maar komt niet in beweging. Motiverende gespreksvoering helpt je je eigen redenen voor verandering te ontdekken &mdash; niet wat anderen vinden, maar wat jij echt wilt.</p>
         <div class="hero-buttons">
           <a href="contact.html" class="btn btn-primary">Gratis kennismakingsgesprek &rarr;</a>
-          <a href="#voorkwartier" class="btn btn-secondary">Meer informatie</a>
+          <a href="#voor-wie" class="btn btn-secondary">Meer informatie</a>
         </div>
       </div>
       <div class="hero-image">
         <div class="hero-photo">
-          <img src="van-voornemen-naar-daad.JPG" alt="Sabine van der Elsen - Motiverende gespreksvoering">
+          <img src="van-voornemen-naar-daad.JPG" alt="Sabine van der Elsen - motiverende gespreksvoering" loading="eager">
         </div>
       </div>
     </div>
@@ -629,106 +669,87 @@
       <div class="content-grid">
         <div class="content-text">
           <h2>Wat is motiverende gespreksvoering?</h2>
-          <p>Motiverende gespreksvoering (Motivational Interviewing, MI) is een benadering die origineel is ontwikkeld voor verslaving, maar die werkt voor elke gedragsverandering.</p>
+          <p>Motiverende gespreksvoering (Motivational Interviewing) is een wetenschappelijk onderbouwde gespreksmethode die je helpt je eigen motivatie te ontdekken. Oorspronkelijk ontwikkeld in de verslavingszorg, maar inmiddels breed ingezet bij elke vorm van gedragsverandering.</p>
 
-          <p>Het startpunt is simpel: je hebt motivatie in jezelf. Je coacht niet alleen de feiten of "verstandige" redenen, je helpt je luisteren naar jezelf – naar wat je echt wilt, wat je drijft, waar je bang voor bent.</p>
+          <p>Het startpunt is eenvoudig: de motivatie om te veranderen zit al in jou. Soms is die verborgen, soms tegenstrijdig &mdash; maar hij is er. In plaats van je te vertellen w&aacute;t je moet veranderen, helpt deze methode je te luisteren naar wat je zelf wilt.</p>
 
-          <p>Dit is radicaal anders dan:</p>
+          <p>Dat is anders dan goedbedoeld advies (&ldquo;je moet gezonder leven&rdquo;) of informatie (&ldquo;hier zijn de voordelen&rdquo;). Die werken vaak niet, omdat ze van buitenaf komen. Motiverende gespreksvoering werkt van binnenuit.</p>
+
+          <h3>De vier pijlers</h3>
           <ul>
-            <li>"Je moet stoppen met roken" (dwang)</li>
-            <li>"Hier zijn de voordelen van gezonder eten" (informatie)</li>
-            <li>"Waarom lukt het je niet?" (kritiek)</li>
+            <li><strong>Samenwerking</strong> &mdash; we werken samen als gelijken. Jij bent de expert over je eigen leven, Sabine is je gids in het proces</li>
+            <li><strong>Oproepen</strong> &mdash; jouw eigen redenen en motivatie worden naar boven gehaald. Dat werkt veel sterker dan motivatie van buitenaf</li>
+            <li><strong>Mededogen</strong> &mdash; verandering is moeilijk. We kijken met begrip, zonder oordeel, naar wat je tegenhoudt</li>
+            <li><strong>Zelfbeschikking</strong> &mdash; jij bepaalt of, wanneer en hoe je verandert. Dat respect is essentieel voor duurzame verandering</li>
           </ul>
 
-          <p>In plaats daarvan vragen we: "Wat wil jij? Wat houdt je tegen? Wat zou helpen?" We luisteren naar je antwoorden. En langzaam wordt het duidelijk: jij wilt veranderen. Niet omdat je moet, maar omdat het zin heeft.</p>
-
-          <h3>De vier kernprincipes</h3>
-
-          <div class="principle-box">
-            <h4>1. Partnership</h4>
-            <p>We werken samen, niet boven je uit. Je bent de expert in jezelf, ik ben je gids. We zijn partners.</p>
-          </div>
-
-          <div class="principle-box">
-            <h4>2. Evocation (Oproepen)</h4>
-            <p>Ik lok uit wat in jou al aanwezig is. Je eigen redenen, je eigen motivatie. Dit werkt veel beter dan die van buiten.</p>
-          </div>
-
-          <div class="principle-box">
-            <h4>3. Compassion (Mededogen)</h4>
-            <p>Verandering is moeilijk. Daar zien we met begripvolle ogen naar. Geen oordeel, wel ondersteuning.</p>
-          </div>
-
-          <div class="principle-box">
-            <h4>4. Autonomy (Zelfbeschikking)</h4>
-            <p>Jij bepaalt of, wanneer en hoe je verandert. Niet ik. Dit respect is essentieel.</p>
+          <div class="highlight-box">
+            <p>Motiverende gespreksvoering gaat niet over overtuigen. Het gaat over luisteren &mdash; naar jezelf. Pas als je je eigen redenen voelt, ontstaat er beweging.</p>
           </div>
         </div>
 
         <div class="content-text">
           <h2>Hoe werkt het in de praktijk?</h2>
-          <p>In sessies gebruiken we specifieke technieken:</p>
+          <p>In de sessies gebruiken we specifieke gesprekstechnieken die je helpen je eigen motivatie te verkennen:</p>
 
           <ul>
-            <li><strong>Open vragen:</strong> "Wat zou je anders willen zien?" (in plaats van "Wil je stoppen?")</li>
-            <li><strong>Reflectief luisteren:</strong> Je hoort jezelf teruggesproken, zodat je beter ziet wat je zegt</li>
-            <li><strong>Samenvatten:</strong> We bespreken wat je zei, en je ziet het patroon</li>
-            <li><strong>Change talk:</strong> We zoeken naar je eigen redenen om te veranderen</li>
+            <li><strong>Open vragen</strong> &mdash; &ldquo;Wat zou je anders willen?&rdquo; in plaats van &ldquo;Wil je stoppen?&rdquo;</li>
+            <li><strong>Reflectief luisteren</strong> &mdash; je hoort jezelf terug, waardoor je beter ziet wat je eigenlijk zegt en voelt</li>
+            <li><strong>Samenvatten</strong> &mdash; we bespreken wat je hebt gezegd en ontdekken samen het patroon</li>
+            <li><strong>Verandertaal herkennen</strong> &mdash; we zoeken naar jouw eigen redenen en wensen voor verandering</li>
+          </ul>
+
+          <p>Motiverende gespreksvoering kan goed worden gecombineerd met andere methoden, zoals <a href="act-therapie-venlo-limburg.html">ACT therapie</a> of <a href="maatwerk-coaching-grubbenvorst.html">maatwerk coaching</a>. Samen kijken we wat het beste bij jouw situatie past.</p>
+
+          <h3>Waarbij kan het helpen?</h3>
+          <ul>
+            <li><strong>Leefstijlverandering</strong> &mdash; gezonder eten, meer bewegen, stoppen met roken</li>
+            <li><strong>Omgaan met ziekte</strong> &mdash; leefstijlaanpassingen bij een chronische aandoening</li>
+            <li><strong>Stressgedrag doorbreken</strong> &mdash; piekeren, jezelf isoleren, uitstelgedrag</li>
+            <li><strong>Medicatietrouw</strong> &mdash; moeite met het volhouden van je behandelplan</li>
+            <li><strong>Persoonlijke verandering</strong> &mdash; relaties verbeteren, grenzen stellen, andere keuzes maken</li>
           </ul>
 
           <div class="highlight-box">
-            <p><strong>Voorbeeld (roken afkicken):</strong> In plaats van "je moet stoppen", vraag ik: "Wat zou beter zijn als je minder rookte?" Je zegt: "Meer energie, beter voor mijn longen." Ik spiegel: "Dus energie is voor jou belangrijk." Jij voelt dat zelf, en die motivatie bouwen we op. Dan vraag ik: "Wat zou je helpen om stappen te zetten?" Jij bedenkt het zelf – veel sterker dan wat ik zou voorstellen.</p>
+            <p>Verandering werkt niet door dwang, maar door jezelf beter te leren luisteren. Motiverende gespreksvoering kan je daarbij ondersteunen.</p>
           </div>
-
-          <h3>Waarvoor is het effectief?</h3>
-          <p>Dit werkt voor alles waarbij gedrag verandert:</p>
-          <ul>
-            <li>Roken, alcohol, verslaving</li>
-            <li>Gezonder eten, meer bewegen</li>
-            <li>Stoppen met stress-gedrag (piekeren, zich isoleren)</li>
-            <li>Medicatie beter innemen</li>
-            <li>Omgaan met chronische ziekte</li>
-            <li>Relaties verbeteren</li>
-          </ul>
-
-          <p style="margin-top: 1.5rem; color: var(--text-light); font-size: 0.95rem;"><em>Het geheim: verandering werkt niet door dwang, maar door jezelf beter te luisteren. Motiverende gespreksvoering helpt je dat te doen.</em></p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- VOOR WIE SECTION -->
-  <section class="section voor-wie" id="voorkwartier">
+  <section class="section voor-wie" id="voor-wie">
     <div class="section-inner">
       <div class="section-header">
         <div class="section-label">Voor Wie</div>
-        <h2>Deze begeleiding werkt voor jou als...</h2>
-        <p>Herken je jezelf?</p>
+        <h2>Motiverende gespreksvoering past bij jou als...</h2>
+        <p>Herken je jezelf in een van deze situaties?</p>
       </div>
       <div class="voor-wie-grid">
         <div class="voor-wie-card">
           <h3>Je hebt goede voornemens</h3>
-          <p>Maar je voelt geen echte motivatie om ze uit te voeren. Je wilt weten wat jezelf echt drijft.</p>
+          <p>Maar je voelt geen echte drang om ze uit te voeren. Je wilt ontdekken wat je van binnenuit motiveert.</p>
         </div>
         <div class="voor-wie-card">
           <h3>Je voelt weerstand</h3>
-          <p>Tegen dingen die "goed voor je zijn". In plaats van tegen jezelf te vechten, wil je begrijpen waarom.</p>
+          <p>Tegen dingen die &ldquo;goed voor je zijn&rdquo;. In plaats van tegen jezelf te vechten, wil je begrijpen waarom.</p>
         </div>
         <div class="voor-wie-card">
-          <h3>Je wilt iets echt veranderen</h3>
-          <p>Roken, drinken, eten, bewegen, je gedrag. En je wilt dat van binnenuit, niet van buitenaf opgelegd.</p>
+          <h3>Je wilt echt iets veranderen</h3>
+          <p>In je leefstijl, je gedrag of je gewoonten. En je wilt dat die verandering van binnenuit komt, niet opgelegd.</p>
         </div>
         <div class="voor-wie-card">
-          <h3>Je voelt je veroordeeld</h3>
-          <p>Door jezelf of door anderen. Je zoekt iemand die je begrijpt, niet beoordeelt.</p>
+          <h3>Je zoekt begrip, geen oordeel</h3>
+          <p>Je wilt iemand die luistert en begrijpt. Niet iemand die je vertelt wat je moet doen.</p>
         </div>
         <div class="voor-wie-card">
-          <h3>Je bent vastgelopen</h3>
-          <p>Je begrijpt het cognitief (je weet wat gezond is), maar emotioneel kom je niet in beweging.</p>
+          <h3>Je begrijpt het wel, maar doet het niet</h3>
+          <p>Je weet wat gezond is, maar emotioneel kom je niet in beweging. Het hoofd zegt ja, het gevoel zegt nee.</p>
         </div>
         <div class="voor-wie-card">
-          <h3>Je wilt concreet handelen</h3>
-          <p>Niet alleen praten, maar écht stappen zetten. Van voornemen naar daad.</p>
+          <h3>Je woont in de regio of kiest online</h3>
+          <p>Sessies in Grubbenvorst (regio Venlo, Horst, Sevenum, Blerick) of online via videoconsult.</p>
         </div>
       </div>
     </div>
@@ -738,37 +759,37 @@
   <section class="section faq-section">
     <div class="faq-inner">
       <div class="section-header">
-        <div class="section-label">Vragen & Antwoorden</div>
-        <h2>Veel gestelde vragen</h2>
+        <div class="section-label">Vragen &amp; Antwoorden</div>
+        <h2>Veelgestelde vragen over motiverende gespreksvoering</h2>
       </div>
 
       <details>
-        <summary>Is dit alleen voor verslaving?</summary>
-        <p>Nee, hoewel het oorspronkelijk voor verslaving is ontwikkeld, werkt motiverende gespreksvoering voor elke gedragsverandering. Het gaat om jezelf motiveren voor wat je echt wilt.</p>
+        <summary>Is motiverende gespreksvoering alleen voor verslaving?</summary>
+        <p>Nee. Hoewel de methode oorspronkelijk voor de verslavingszorg is ontwikkeld, wordt motiverende gespreksvoering breed ingezet bij elke vorm van gedragsverandering &mdash; van leefstijl en gezondheid tot persoonlijke groei.</p>
       </details>
 
       <details>
-        <summary>Wat als ik me niet echt wil veranderen?</summary>
-        <p>Dan is het goed dat je dat weet. Soms blijkt in het gesprek dat je onderwaardig voelt, of bang bent voor het onbekende. We bespreken dat. Verandering begint met eerlijkheid.</p>
+        <summary>Hoe lang duurt een traject?</summary>
+        <p>Dat verschilt per persoon en situatie. Na het gratis kennismakingsgesprek maken we samen een inschatting die past bij jouw doelen en tempo.</p>
       </details>
 
       <details>
-        <summary>Hoe lang duurt het voordat ik resultaat zie?</summary>
-        <p>Veel mensen voelen al in de eerste sessie verschil – ze voelen zich begrepen en minder alleen. Concrete verandering begint als je echte motivatie vindt. Dat duurt meestal 3-6 sessies, afhankelijk van wat je verandert.</p>
+        <summary>Kan het ook helpen bij chronische ziekte?</summary>
+        <p>Ja. Veel mensen met een chronische aandoening ervaren moeite met leefstijlaanpassingen zoals medicatie innemen, meer rusten of anders eten. Motiverende gespreksvoering kan helpen om vanuit je eigen motivatie stappen te zetten.</p>
       </details>
 
       <details>
-        <summary>Kan dit ook helpen met chronische ziekte?</summary>
-        <p>Heel zeker. Veel mensen met chronische ziekte hebben moeite met leefstijl aanpassingen (medicatie innemen, meer rusten, acceptatie). Motiverende gespreksvoering helpt je dat van binnenuit te willen, niet uit dwang.</p>
+        <summary>Wat als ik niet zeker weet of ik wil veranderen?</summary>
+        <p>Dat is juist een goed startpunt. Motiverende gespreksvoering helpt je verkennen wat je wilt, zonder druk of oordeel. Twijfel hoort bij het proces en is geen reden om niet te beginnen.</p>
       </details>
     </div>
   </section>
 
   <!-- CTA -->
   <section class="cta-section">
-    <h2>Klaar voor echte motivatie?</h2>
-    <p>Begin met een gratis gesprek. Laten we luisteren naar wat jij echt wilt, en hoe we daarheen kunnen gaan.</p>
-    <a href="contact.html" class="btn btn-primary">Plan een afspraak &rarr;</a>
+    <h2>Benieuwd of motiverende gespreksvoering bij je past?</h2>
+    <p>Begin met een gratis kennismakingsgesprek. Vrijblijvend en op jouw tempo.</p>
+    <a href="contact.html" class="btn btn-primary">Neem contact op &rarr;</a>
     <p class="cta-contact">Of bel direct: <a href="tel:+31642559022">06 425 590 22</a> &middot; <a href="mailto:info@sabinevanderelsen.nl">info@sabinevanderelsen.nl</a></p>
   </section>
 
@@ -788,11 +809,13 @@
         <ul class="footer-links">
           <li><a href="multiple-sclerose-ms-coaching-online.html"><strong>MS Coaching Online</strong></a></li>
           <li><a href="omgaan-met-chronische-ziekte.html">Omgaan met ziekte</a></li>
+          <li><a href="fysiotherapie-en-coaching.html">Lichaam &amp; Geest</a></li>
           <li><a href="maatwerk-coaching-grubbenvorst.html">Maatwerk Coaching</a></li>
           <li><a href="act-therapie-venlo-limburg.html">ACT Therapie</a></li>
           <li><a href="cognitieve-therapie-grubbenvorst.html">Cognitieve Therapie</a></li>
           <li><a href="lifestyle-coaching-venlo.html">Lifestyle Coaching</a></li>
           <li><a href="polyvagaal-therapie-limburg.html">Polyvagaal Therapie</a></li>
+          <li><a href="motiverende-gespreksvoering.html">Motiverende Gespreksvoering</a></li>
         </ul>
       </div>
       <div>
