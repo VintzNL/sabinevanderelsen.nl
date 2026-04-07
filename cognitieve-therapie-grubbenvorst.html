@@ -187,6 +187,17 @@
 
     .nav-links a:hover { color: var(--sage-dark); }
 
+    /* MS Coaching nav-item — subtiel uitgelicht */
+    .nav-links a.nav-ms {
+      background: rgba(122, 158, 142, 0.12);
+      color: var(--sage-dark);
+      padding: 0.5rem 0.95rem;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+    .nav-links a.nav-ms:hover { background: rgba(122, 158, 142, 0.22); }
+    .nav-links a.nav-ms::after { display: none; }
+
     .nav-links a::after {
       content: '';
       position: absolute;
@@ -646,6 +657,7 @@
       </button>
       <ul class="nav-links">
         <li><a href="over-sabine.html">Over Sabine</a></li>
+        <li><a href="multiple-sclerose-ms-coaching-online.html" class="nav-ms">MS Coaching</a></li>
         <li><a href="index.html#diensten">Expertise</a></li>
         <li><a href="werkwijze-tarieven.html">Werkwijze</a></li>
         <li><a href="ervaringen.html">Ervaringen</a></li>
