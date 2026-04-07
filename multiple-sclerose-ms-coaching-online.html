@@ -926,6 +926,49 @@
       color: rgba(255,255,255,0.35);
     }
 
+    /* === STICKY MOBIELE ACTIEBALK === */
+    .mobile-action-bar { display: none; }
+    @media (max-width: 768px) {
+      .mobile-action-bar {
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: var(--white);
+        box-shadow: 0 -4px 20px rgba(0,0,0,0.12);
+        padding: 0.7rem 0.8rem;
+        gap: 0.6rem;
+        z-index: 999;
+        border-top: 1px solid rgba(122,158,142,0.15);
+      }
+      .mobile-action-bar a {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.4rem;
+        padding: 0.85rem 0.5rem;
+        border-radius: 8px;
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-size: 0.95rem;
+        font-weight: 600;
+        transition: all 0.2s;
+      }
+      .mobile-action-bar .mab-whatsapp {
+        background: #25D366;
+        color: var(--white);
+        box-shadow: 0 2px 8px rgba(37,211,102,0.35);
+      }
+      .mobile-action-bar .mab-call {
+        background: var(--sage);
+        color: var(--white);
+        box-shadow: 0 2px 8px rgba(122,158,142,0.4);
+      }
+      body { padding-bottom: 75px; }
+    }
+
     /* === RESPONSIVE === */
     @media (max-width: 900px) {
       .hero-inner { flex-direction: column; text-align: center; }
@@ -998,8 +1041,8 @@
           <span class="hero-badge">&#10003; Landelijk via videoconsult</span>
         </div>
         <div class="hero-buttons">
-          <a href="contact.html" class="btn btn-primary">Gratis online kennismakingsgesprek &rarr;</a>
-          <a href="#mijn-verhaal" class="btn btn-secondary">Lees mijn verhaal</a>
+          <a href="https://wa.me/31642559022?text=Hallo%20Sabine%2C%20ik%20wil%20graag%20een%20gratis%20kennismakingsgesprek" class="btn btn-primary" target="_blank" rel="noopener">&#128172; WhatsApp Sabine</a>
+          <a href="tel:+31642559022" class="btn btn-secondary">&#128222; Bel direct</a>
         </div>
       </div>
       <!-- FOTO SABINE: Hero portret -->
@@ -1355,6 +1398,12 @@
       <span><a href="privacy.html" style="color: inherit;">Privacyverklaring</a></span>
     </div>
   </footer>
+
+  <!-- STICKY MOBIELE ACTIEBALK -->
+  <div class="mobile-action-bar">
+    <a href="https://wa.me/31642559022?text=Hallo%20Sabine%2C%20ik%20wil%20graag%20een%20gratis%20kennismakingsgesprek" class="mab-whatsapp" target="_blank" rel="noopener">&#128172; WhatsApp</a>
+    <a href="tel:+31642559022" class="mab-call">&#128222; Bel direct</a>
+  </div>
 
 </body>
 </html>
