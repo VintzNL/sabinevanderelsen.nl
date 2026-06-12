@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina niet gevonden | Sabine van der Elsen</title>
+  <meta name="robots" content="noindex, follow">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --sage: #7A9E8E;
+      --sage-light: #E8F0EC;
+      --sage-dark: #5C7D6E;
+      --warm: #C4A882;
+      --warm-light: #F5EDE3;
+      --cream: #FAF8F5;
+      --dark: #2C3E35;
+      --text: #3D4F45;
+      --text-light: #6B7D72;
+      --white: #FFFFFF;
+      --border: #D4DDD8;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      color: var(--text);
+      background: var(--cream);
+    }
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 72px;
+      background: rgba(250, 248, 245, 0.95);
+      backdrop-filter: blur(10px);
+      z-index: 100;
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-logo {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--dark);
+      text-decoration: none;
+    }
+    .nav-logo span { color: var(--sage-dark); }
+    .nav-cta {
+      background: var(--sage);
+      color: var(--white);
+      padding: 0.6rem 1.4rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .nav-cta:hover { background: var(--sage-dark); }
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 8rem 2rem 4rem;
+      background: linear-gradient(135deg, var(--cream) 0%, var(--sage-light) 50%, var(--warm-light) 100%);
+    }
+    .hero-content { max-width: 600px; }
+    .hero-label {
+      font-size: 0.8rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--sage-dark);
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      line-height: 1.3;
+      color: var(--dark);
+      margin-bottom: 1.5rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: var(--text-light);
+      margin-bottom: 2.5rem;
+    }
+    .btn-primary {
+      display: inline-block;
+      background: var(--sage);
+      color: var(--white);
+      padding: 0.9rem 2rem;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .btn-primary:hover {
+      background: var(--sage-dark);
+      transform: translateY(-1px);
+    }
+    .links {
+      margin-top: 2.5rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+      line-height: 1.7;
+      color: var(--text-light);
+    }
+    .links a {
+      color: var(--sage-dark);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      transition: all 0.2s;
+    }
+    .links a:hover { color: var(--sage); }
+    @media (max-width: 600px) {
+      .hero { padding: 6rem 1.5rem 2rem; }
+      h1 { font-size: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav" role="navigation" aria-label="Hoofdnavigatie">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Sabine <span>van der Elsen</span></a>
+      <a href="contact.html" class="nav-cta">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-label">404 — Pagina niet gevonden</div>
+      <h1>Deze pagina bestaat niet (meer)</h1>
+      <p>De pagina die je zoekt is verplaatst of bestaat niet. Geen zorgen — via onderstaande knop kom je weer op het juiste pad.</p>
+      <a href="index.html" class="btn-primary">Naar de homepage →</a>
+      <div class="links">
+        Of ga direct naar: <a href="multiple-sclerose-ms-coaching-online.html">MS Coaching Online</a> · <a href="over-sabine.html">Over Sabine</a> · <a href="blog.html">Blog</a> · <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
